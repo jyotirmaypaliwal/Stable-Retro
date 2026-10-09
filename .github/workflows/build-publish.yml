@@ -9,7 +9,7 @@ name: build-publish
 on:
   workflow_dispatch:
   push:
-    branches: [main]
+    branches: [main, fork-ci-python-311]
   pull_request:
     branches: [main]
   release:
